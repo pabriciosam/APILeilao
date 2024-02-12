@@ -15,6 +15,7 @@ public class GetCurrenteLeilaoUseCaseTest
     {
         //ARRANGE
         //Comentário teste
+        //Mais uma vez
         var auctionEntity = new Faker<Auction>()
             .RuleFor(a => a.Id, f => f.Random.Number(1, 10))
             .RuleFor(a => a.Name, f => f.Lorem.Word())
